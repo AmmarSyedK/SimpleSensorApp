@@ -1,7 +1,7 @@
 ![NS Banner](https://i.ibb.co/tD2MFrz/Sans-titre-33.png)
 # NativeScript Project - Sensor App
 
-This is a simple NativeScript project where I had to code an App using the sensor (Accelerometer of the device).
+This is a simple NativeScript project where I had to code an App using the sensor (Accelerometer in NativeScript).
 
 # Result
 
