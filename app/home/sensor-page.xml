@@ -1,0 +1,11 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar>
+        <Label text="Sensor project" />
+    </ActionBar>
+
+    <!-- if conditon, depending on LEFT, RIGHT, DOWN, UP, BACKWARD, FORWARD and STILL movement of the android device, the color and text will change -->
+    <GridLayout rows="*,*" columns="*" backgroundColor="{{ x > 0.1 ? 'red' : (x < -0.1 ? 'green' : (y > -0.9 ? 'blue' : (y < -1 ? 'yellow' : (z > 0.1 ? 'orange' : (z < -0.1 ? 'purple' : 'gray')))) ) }}">
+        <Label text="{{ x > 0.1 ? 'LEFT' : (x < -0.1 ? 'RIGHT' : (y > -0.9 ? 'DOWN' : (y < -1.1 ? 'UP' : (z > 0.1 ? 'BACKWARD' : (z < -0.1 ? 'FORWARD' : 'STILL')))) ) }}" horizontalAlignment="center" verticalAlignment="center" fontSize="24" />
+    </GridLayout>
+
+</Page>
