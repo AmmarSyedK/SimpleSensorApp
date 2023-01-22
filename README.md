@@ -9,7 +9,7 @@ The final result will display a customized text and background color depending o
 
 Here is a demo:
 
-[VIDEO]
+https://user-images.githubusercontent.com/76450681/213923933-2e80257a-2f86-4740-ab85-eb0b2eef6c04.mp4
 
 In order to get these results, we simply have some if conditions depending on the x, y and z-axis of the sensor.
 Simply explained, if x>0 then the device is going to the right and it is diplaying the green background color. Same thing for the other movements like LEFT, if x<0 then it will display a RED background color and the text 
